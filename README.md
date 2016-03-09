@@ -32,7 +32,9 @@ var diff = resemble(file).compareTo(file2).ignoreColors().onComplete(function(da
 	{
 	  misMatchPercentage : 100, // %
 	  isSameDimensions: true, // or false
-	  getImageDataUrl: function(){}
+	  getImageDataUrl: function(){} // returns base64-encoded image
+	  pngStream: function(){} // returns stream with image data
+	  getBuffer: function(cb){} // calls callback with image buffer
 	}
 	*/
 });
