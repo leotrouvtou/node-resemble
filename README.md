@@ -1,6 +1,8 @@
 node-resemble
 ==========
 
+**Request for maintainer**: https://github.com/kpdecker/node-resemble/issues/11
+
 Node port of [Resemble.js](https://github.com/Huddle/Resemble.js).
 
 Analyse and compare images with Javascript and HTML5. [Resemble.js Demo](http://huddle.github.com/Resemble.js/)
